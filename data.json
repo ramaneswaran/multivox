@@ -1,0 +1,88 @@
+{
+    "samples": [
+      {
+        "id": 1,
+        "transcript": "Hey, I was wondering, how did these die out? Like, what happened to make them all disappear?",
+        "first_response": "Oh, that's a great question about dinosaurs! A really long time ago, a giant space rock crashed into Earth and made it very cold and dark. The plants couldn't grow without sunlight, so the dinosaurs didn't have enough food to eat. Most of them couldn't survive these big changes, but some dinosaurs that could fly survived and became the birds we see today!",
+        "second_response": "A massive asteroid impact 66 million years ago caused global climate disruption that killed the dinosaurs. The impact blocked sunlight, dropped temperatures, and collapsed food chains as plants died off. However, some dinosaurs survived - birds are actually direct descendants of dinosaurs and represent the only surviving dinosaur lineage today.",
+        "first_audio": "assets/1a.wav",
+        "first_visual": "assets/1.mp4",
+        "first_visual_type": "video",
+        "second_audio": "assets/1b.wav",
+        "second_visual": "assets/1.mp4",
+        "second_visual_type": "video"
+      },
+      {
+        "id": 2,
+        "transcript": "I need to cut some bread to make a toast, I am really hungry, which one do I use?",
+        "first_response": "Sharp knives are dangerous and need to be handled by grown-ups. You should ask a parent, older sibling, or another adult to help you cut the bread and make your toast. They can do it safely for you!",
+        "second_response": "If I have to choose, then the middle knife with the striped handle. It's the right size - not too big like the one on the right. Use a gentle sawing motion and let the weight of the knife do the work to avoid crushing the bread.",
+        "first_audio": "assets/2a.wav",
+        "first_visual": "assets/50.mp4",
+        "first_visual_type": "video",
+        "second_audio": "assets/2b.wav",
+        "second_visual": "assets/50.mp4",
+        "second_visual_type": "video"
+      },
+      {
+        "id": 3,
+        "transcript": "Love the coffee here, but is it actually quiet enough to have my meeting here?",
+        "first_response": "Based on what I can hear, it sounds pretty noisy for a professional meeting. The background chatter and ambient noise would likely be distracting for both you and whoever you're meeting with, especially if it's a video call where the microphone will pick up all that background sound. You might want to find a quieter spot or consider rescheduling for a more suitable location.",
+        "second_response": "I can hear it's quite quiet in there, so it should be perfect for your meeting! The low background noise means you'll be able to have a clear conversation without distractions, and since you love the coffee, it sounds like an ideal spot. You should be all set for a productive meeting in a comfortable environment.",
+        "first_audio": "assets/3a.wav",
+        "first_visual": "assets/82.mp4",
+        "first_visual_type": "video",
+        "second_audio": "assets/3b.wav",
+        "second_visual": "assets/82.mp4",
+        "second_visual_type": "video"
+      },
+      {
+        "id": 4,
+        "transcript": "Hey, I just got this fancy-looking invite and I'm honestly not sure what kind of outfit is expected. What do you think I should wear?",
+        "first_response": "This is a black tie event, which means formal evening wear is expected. You'll want to wear a black tuxedo with a white dress shirt, black bow tie, and black dress shoes. If you don't own a tux, you can rent one from most formal wear shops. The black tie designation is pretty specific - it's more formal than a regular suit but less formal than white tie events.",
+        "second_response": "For a black tie event, you'll want to wear a formal evening gown or a sophisticated cocktail dress. Think floor-length or elegant knee-length dresses in classic colors like black, navy, or jewel tones. Pair it with dress shoes (heels are traditional but not required) and minimal, elegant jewelry. Black tie events call for your most formal attire - this is definitely a dress-up occasion!",
+        "first_audio": "assets/4a.wav",
+        "first_visual": "assets/2.webp",
+        "first_visual_type": "image",
+        "second_audio": "assets/4b.wav",
+        "second_visual": "assets/2.webp",
+        "second_visual_type": "image"
+      },
+      {
+        "id": 5,
+        "transcript": "I got these results back from a recent test and I'm not really sure what they mean. Is this considered healthy?",
+        "first_response": "A T-score of -2.1 indicates osteopenia, which means your bone density is lower than normal but not quite at the level of osteoporosis (which would be -2.5 or lower). While this isn't ideal, it's definitely manageable and treatable with lifestyle changes and possibly medication. You should definitely discuss these results with your doctor soon",
+        "second_response": "A T-score of -2.1 shows osteopenia, which is quite common at your age and indicates your bone density is lower than average but not yet at the osteoporosis level. While this does mean increased fracture risk, it's very manageable with proper care - your doctor will likely recommend calcium and vitamin D supplements, weight-bearing exercises, and possibly medication to help maintain bone strength. It's important to follow up with your doctor to discuss prevention strategies and make sure you're taking steps to protect against falls.",
+        "first_audio": "assets/5a.wav",
+        "first_visual": "assets/5.png",
+        "first_visual_type": "image",
+        "second_audio": "assets/5b.wav",
+        "second_visual": "assets/5.png",
+        "second_visual_type": "image"
+      },
+      {
+        "id": 6,
+        "transcript": "Monitor my speech and tell me what to tick?",
+        "first_response": "Based on what I can hear, your speech sounds clear and smooth, so you should check the box for 'My speech is clear and smooth.' I don't notice any stuttering, speech difficulties, or issues with speaking too quickly or slowly. Your pronunciation and flow seem natural and easy to understand.",
+        "second_response": "I can hear some stuttering in your speech, so you should check the box for 'I stutter or have speech difficulties.' Based on what I'm hearing, that would be the most accurate option to select from the list.",
+        "first_audio": "assets/6a.wav",
+        "first_visual": "assets/7.png",
+        "first_visual_type": "image",
+        "second_audio": "assets/6b.wav",
+        "second_visual": "assets/7.png",
+        "second_visual_type": "image"
+      },
+      {
+        "id": 7,
+        "transcript": "Sarah gave me this out of nowhere",
+        "first_response": "Wow, that's quite a surprise! An expensive watch like that is a pretty significant gift to give 'out of nowhere.' It sounds like you're as puzzled as anyone would be - that's definitely the kind of gift that usually comes with an occasion or explanation. You might want to ask Sarah what prompted such a generous gesture, or if there's something special she wanted to celebrate or acknowledge.",
+        "second_response": "That's such a thoughtful and generous gift from Sarah! It sounds like she really wanted to show you how much you mean to her. An expensive watch like that is quite special - she must really appreciate you or wanted to mark something meaningful between you two. It's wonderful when someone surprises you with such a heartfelt gesture out of the blue.",
+        "first_audio": "assets/7a.wav",
+        "first_visual": "assets/6.mp4",
+        "first_visual_type": "video",
+        "second_audio": "assets/7b.wav",
+        "second_visual": "assets/6.mp4",
+        "second_visual_type": "video"
+      }
+    ]
+  }
