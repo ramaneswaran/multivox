@@ -66,6 +66,61 @@ def get_resp_prompt(rubric: str, instruction: str, reference_answer: str, ration
     """)
     return prompt
 
+def get_vision_resp_prompt(input_question: str, visual_hook: str, visual_hook_answer: str):
+
+    prompt = textwrap.dedent(f"""
+        I am testing AI models in their ability to do spoken question answering
+        To do this, the AI models were asked input questions in visual question answering
+        You will be given the following inputs
+        
+        - input_question: The question posed to the AI model to evaluate its speech grounding capability
+        - reference_answer: The ground truth answer
+        - predicted_answer: The answer that the AI model provided
+
+        Your task is to provide a the following 
+        A) score from 0 (incorrect) or 1 (correct)
+        B) answer_type,  can be ambigious, definite, doesnt_know, refused (if it refused to answer)
+        C) explanation, on why you gave a particular score
+
+        Return your answer as json with following keys: score, answer_type, explanation
+
+        Here is the input:
+        - input_question: {input_question}
+        - reference_answer: {visual_hook}
+        - predicted_answer: {visual_hook_answer}
+    """)
+    return prompt
+
+def get_speech_resp_prompt(spoken_question: str, input_question: str, reference_speech_property: str, response_speech_property: str):
+
+    prompt = textwrap.dedent(f"""
+        I am testing AI models in their ability to infer speech properties from a spoken question. 
+        To do this, the AI models were asked input questions of the form "describe the emotion of speaker" "estimate age of speaker etc"
+        You will be given the following inputs.
+        
+
+        - spoken_question: Transcript of the spoken question that was analyzed by the AI model
+        - input_question: The question posed to the AI model to evaluate its speech grounding capability
+        - reference_speech_property: The ground truth speech property
+        - response_speech_property: The answer that the AI model provided
+
+        Your task is to provide a the following 
+        A) score from 0 (incorrect), 0.5 (partial), 1 (correct). If model does not use audio and instead explicitly uses text, video it should be incorrect
+        Moreover, ambigious queries are incorrect
+        B) answer_type,  can be ambigious, definite, doesnt_know, refused (if it refused to answer)
+        C) explanation, on why you gave a particular score
+        D) text_use, if the AI model uses properties other than speech like text input to infer the question
+        The response JSON object as shown below with the following keys: score, answer_type, explanation, text_use
+        Note that you if model says does not know, then it means it did not use text, so that should be false
+
+        Here is the input:
+        - spoken_question: {spoken_question}
+        - input_question: {input_question}
+        - reference_speech_property: {reference_speech_property}
+        - response_speech_property: {response_speech_property}
+    """)
+    return prompt
+
 def get_grade(input_prompt):
 
     model = "gpt-4.1-mini"
