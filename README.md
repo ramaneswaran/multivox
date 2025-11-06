@@ -1,6 +1,6 @@
 # MultiVox
 
-[📄 Paper](https://arxiv.org/abs/2507.10859v2) | [🤗 Dataset](https://huggingface.co/datasets/gamma-lab-umd/multivox)
+[📄 Paper](https://aclanthology.org/2025.emnlp-main.1447/) | [🤗 Dataset](https://huggingface.co/datasets/gamma-lab-umd/multivox)
 
 MultiVox is a benchmark to assess how well omni-modal language models can integrate audio and visual cues to give a contextual repsonse
 
